@@ -1,0 +1,21 @@
+{
+  "name": "now-dev-static-build-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build && mkdir build && echo '{\"name\": \"The Matrix\"}' > ./build/movie.json && echo '<h1>The Matrix</h1>' > ./build/movie.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamli/now-dev-static-build-test.git"
+  },
+  "keywords": [],
+  "author": "William Li <william@zeit.co>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamli/now-dev-static-build-test/issues"
+  },
+  "homepage": "https://github.com/williamli/now-dev-static-build-test#readme"
+}
